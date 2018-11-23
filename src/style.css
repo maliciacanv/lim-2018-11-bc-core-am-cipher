@@ -1,0 +1,54 @@
+body{
+  background-image: url("https://st6.cannypic.com/thumbs/12/127505_632_canny_pic.jpg");
+background-position: right top;
+}
+h {
+  margin: 480px;
+  color: black;
+  font-size: 55px;
+font-family: cursive;
+
+ }
+
+img {
+  width: 200px;
+  height: 180px;
+  border-radius: 50px;
+  margin-left: 540px
+
+}
+
+h1{
+  color: red;
+  text-align: center;
+  font-size: 35px;
+}
+button {
+  background-color: #00E5FF;
+   border radius: 30px;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+
+}
+#desplazamiento{
+  width: 20%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+
+}
+#mensaje {
+  width: 45%;
+   height: 150px;
+   padding: 12px 20px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   background-color: #f8f8f8;
+   font-size: 16px;
+   resize: none;
+}

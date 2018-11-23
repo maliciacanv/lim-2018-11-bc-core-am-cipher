@@ -6,16 +6,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
 
-<!-- botones de cifrar y descifrar-->
-  <center>
-      <p><strong>Ahora,¿Que deseas hacer?<strong></p>
-      <button id="boton1">CIFRAR</button>
-      <button id="boton2">DESCIFRAR</button>
+    <!-- primera pantalla -->
+    <div id="screen1" style="display:block">
+        <h>¡BIENVENIDOS!</h>
+        <div>
+        <img src="https://image.flaticon.com/icons/svg/37/37832.svg">
+      </div>
+        <h1>Love Secret</h1>
+        <h3>INTRUCCIONES:<h3>
+          <ul>
+            <li>Ingrese clave secreto para cifrar o descifrar</li>
+            <li>Diguite mensaje para cifrar o descifrar</li>
+            <li>Dale click en boton para cifrar o descifrar</li>
+    <!-- boton de continuar-->
+          <h4>Ahora , ¿Que deseas hacer?</h4>
+          <button type="button" id="boton">CONTINUAR</button>
+        </div>
+    <!-- segunda pantalla-->
+    <!-- cajas para cifrar-->
+    <form>
+    <div id="screen2" style="display:none"
+    <label for="desplazamiento">Ingrese número (clave secreto)</label>
+         <input type="numbers" id="desplazamiento">
+    <label for="mensaje">Ingrese mensaje</label>
+         <input type="string" id="mensaje">
+        <!--boton de cifrarmensaje-->
+         <button type="button" id="boton2">CIFRAR</button>
+    <!--boton de descifrarmensaje-->
+        <button type="button" id="boton3">DESCIFRAR</button>
+    </div>
+    </form>
+    <!--tercera pantalla-->
+    <div id="screen3" style="display:none"
+    <h5>¡¡¡GENIAL!!!</h5>
+    <h6>Tu clave secreto es...</h6>
+      <p id="claves"></p>
+    <label for="respuestas"> Tu Mensaje Secreto es...</label>
+         <input type="string" id="respuestas">
 
-<!-- despues de presionar CIFRAR-->
-   <p1><strong>ingrese un número secreto<strong></p1>
-     <input type="string" id="clave" placeholder="digite su clave" required/>
+    <p>¡Ahora copia clave , mensaje y envia a tu contacto!</p>
+
+    <button type="button" id="boton4">Seguir navegando</button>
+
+     <div id="root"></div>
+     <script src="cipher.js"></script>
+     <script src="index.js"></script>
+</div>
+</body>
+</html>
