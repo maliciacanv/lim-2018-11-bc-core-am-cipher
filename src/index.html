@@ -6,52 +6,52 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-    <!-- primera pantalla -->
+<!-- PRIMERA PANTALLA -->
     <div id="screen1" style="display:block">
-        <h>¡BIENVENIDOS!</h>
-        <div>
-        <img src="https://image.flaticon.com/icons/svg/37/37832.svg">
-      </div>
         <h1>Love Secret</h1>
-        <h3>INTRUCCIONES:<h3>
+<!-- primera imagen en bienvenida-->
+        <img src="https://image.flaticon.com/icons/svg/37/37832.svg">
+        <h2>Cifra y Descifra en solo 3 pasos<h2>
+        <h3>
           <ul>
-            <li>Ingrese clave secreto para cifrar o descifrar</li>
-            <li>Diguite mensaje para cifrar o descifrar</li>
-            <li>Dale click en boton para cifrar o descifrar</li>
-    <!-- boton de continuar-->
-          <h4>Ahora , ¿Que deseas hacer?</h4>
-          <button type="button" id="boton">CONTINUAR</button>
-        </div>
-    <!-- segunda pantalla-->
-    <!-- cajas para cifrar-->
+            <li>Ingresa clave secreto</li>
+            <li>Diguite mensaje</li>
+            <li>Dale click en boton</li>
+          </ul>
+        </h3>
+        <h4>¡Bienvenido a tu sitio de los secretos!</h4>
+<!-- boton de continuar-->
+          <button type="button" id="boton">¡Empezar ya!</button>
+     </div>
+<!--SEGUNA PANTALLA-->
+<!-- cajas de desplazamiento(clave secreto) y mensaje secreto-->
     <form>
-    <div id="screen2" style="display:none"
+    <div id="screen2" style="display:none">
     <label for="desplazamiento">Ingrese número (clave secreto)</label>
-         <input type="numbers" id="desplazamiento">
-    <label for="mensaje">Ingrese mensaje</label>
+         <input type="number" id="desplazamiento">
+    <label for="mensaje">Ingrese mensaje secreto</label>
          <input type="string" id="mensaje">
-        <!--boton de cifrarmensaje-->
-         <button type="button" id="boton2">CIFRAR</button>
-    <!--boton de descifrarmensaje-->
-        <button type="button" id="boton3">DESCIFRAR</button>
+<!--boton de cifrarmensaje-->
+    <button type="button" id="boton2">Cifrar</button>
+<!--boton de descifrarmensaje-->
+    <button type="button" id="boton3">Descifrar</button>
     </div>
     </form>
-    <!--tercera pantalla-->
-    <div id="screen3" style="display:none"
-    <h5>¡¡¡GENIAL!!!</h5>
-    <h6>Tu clave secreto es...</h6>
-      <p id="claves"></p>
-    <label for="respuestas"> Tu Mensaje Secreto es...</label>
+<!--TERCERA PANTALLA-->
+    <div id="screen3" style="display:none">
+      <h5>¡¡¡Genial mis amores!!!</h5>
+      <h6>Tu clave secreto es...</h6>
+          <p id="claves"></p>
+<!--caja para respuesta-->
+    <label for="respuestas"> Tu mensaje secreto es...</label>
          <input type="string" id="respuestas">
-
-    <p>¡Ahora copia clave , mensaje y envia a tu contacto!</p>
-
-    <button type="button" id="boton4">Seguir navegando</button>
+      <p>¡Ahora copia clave , mensaje y envia a tu contacto!</p>
+<!--boton de regrear-->
+    <button type="button" id="boton4">Más secretos</button>
+    </div>
 
      <div id="root"></div>
      <script src="cipher.js"></script>
      <script src="index.js"></script>
-</div>
 </body>
 </html>
