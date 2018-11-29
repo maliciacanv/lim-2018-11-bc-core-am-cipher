@@ -22,3 +22,4 @@ decode:(mensaje,desplazamiento) => {
     return palabraDescifrada;
   }
 };
+//module.exports=window.cipher;
