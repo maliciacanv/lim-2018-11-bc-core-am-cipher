@@ -6,7 +6,7 @@ body{
   text-align: center;
 
   }
-  #screen1, #screen2,#screen3{
+  #screen1, #screen2, #screen3{
     background-color:rgb(255,255,255,0.2);
     width: 50%;
     margin: 0 auto;
@@ -188,9 +188,12 @@ p{
   margin-top: -15px;
   margin-left: 35%;
 }
-@media screen and(max-width:1300px){
-  color: yellow;
+@media all and (max-width:1300px){
+  body{
+    width: 100%
+  }
 }
-@@media screen and(min-width:320px){
-  color:white;
+@media all and (min-width:320px){
+
+
 }
