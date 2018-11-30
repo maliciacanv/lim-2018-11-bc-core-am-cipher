@@ -1,3 +1,8 @@
+//ocultando pantalla 2
+document.getElementById("screen2").style="display:none";
+//llamando pantalla 3
+document.getElementById("screen3").style="display:none";
+
 // llamando al boton cifrar
 const botonContinuar=document.getElementById("boton");
 //llamando al desplazamiento

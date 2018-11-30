@@ -1,157 +1,113 @@
 body{
   background-image: url("https://images4.alphacoders.com/930/thumb-1920-930669.jpg");
+  width: 100% auto;
+  height: 100% auto;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  text-align: center;
+  background-attachment: fixed;
+  }
 
-  }
-  #screen1, #screen2, #screen3{
-    background-color:rgb(255,255,255,0.2);
-    width: 50%;
-    margin: 0 auto;
-    padding: 35px;
-    margin-left: 20%;
-    margin-top: 1%;
-    border: 5px solid yellow;
-    border-radius: 5px;
-    display: block;
-    box-sizing: border-box;
-    float: left;
-  }
-  #screen2, #screen3{
-    background-color:rgb(255,255,0,0.2);
-  }
-h1 {
-  color: black;
-  padding: 5px;
-  border: 5px solid yellow;
+#screen1, #screen2, #screen3{
+  width: 75%;
+  background-color: rgb(255, 182, 193, 0.2);
   border-radius: 5px;
-  width: 80%;
-  font-size:40px;
-  font-family: elephant;
-  background-color: yellow;
-  margin: 0 auto;
+  border: 5px solid white;
+  width: 50%;
+  margin: auto;
+  display: block;
   box-sizing: border-box;
-  margin-left: 10%;
-  margin-top: -5%;
-  float: left;
+  float: none;
+}
+h1{
+  background-color: rgb(255, 20, 147, 0.5);
+  font-family: elephant;
+  font-size:30pt;
+  text-align: center;
+  width: 65%;
+  color: black;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 3px;
+  box-sizing: border-box;
 }
 img{
   display: block;
   margin: 0 auto;
-  width: 35%;
-  height:15%;
-  float: left;
-  margin-left: 30%;
+  margin-top: 5px;
 }
 h2{
-  float: left;
-  background-color: rgb(255,255,0,0.7);
+  background-color: rgb(255, 160, 122, 0.5);
   font-family: arial negrita;
-  font-size: 20px;
+  font-size: 15pt;
   text-shadow: 0.05em 0.05em #212121;
   color: black;
   margin:0 auto;
-  width: 65%;
-  padding: 5px;
+  margin-top: 5px;
+  width: 85%;
   text-align: center;
   border-radius: 10px;
-  margin-left: 18%;
-
 }
-ul{
-  float: left;
-  font-size: 18px;
+ol{
+  font-size: 13pt;
+  text-align: justify;
   font-family: arial negrita;
-  background-color: black;
-  border: 2.5px solid black;
-  text-shadow: 0.05em 0.05em #212121;
-  border-radius: 8px;
   color: white;
+  background-color: rgb(255, 160, 122, 0.5);
+  border-radius: 5px;
   width: 55%;
   margin-top: 5px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  margin-left: 25%;
-
-}
+  margin-left: 20%;
+  }
 h4{
-  float: left;
-  font-size: 25px;
-  font-family: arial negrita;
-  color: black;
-  text-shadow:0.05em 0.05em black;
+  font-size: 25pt;
   text-align: center;
-  margin-top: -13px;
-  background-color: rgb(255,255,0,0.7);
-  width: 100%;
-  border-radius: 8px;
-  margin: 0 auto;
-  box-sizing: border-box;
-
-}
-h5{
-  font-size: 35px;
-  font-family: forte;
-  color: black;
-  text-shadow:0.05em 0.05em white;
-  text-align: center;
-  margin-top: auto;
-
-}
-h6{
-
-  font-size: 25px;
-  font-family: forte;
-  color: black;
-
-  margin-top: -40px;
+  font-family: monospace;
+  color: black negrita;
+  margin-top: -20px;
 }
 button{
-    float: left;
-    background-color: #76FF03;
+    display: block;
+    background-color: rgb(255, 20, 147, 0.5);
     border-radius: 75%;
     border: 20px MIXED black;
     color: black;
     font-family: forte;
     text-align: center;
-    font-size: 20px;
-    width: 25%;
-    padding: 25px;
+    font-size: 13pt;
+    width: 6em;
+    height: 6em;
     margin: 0 auto;
-    cursor:pointer;
-    box-sizing: border-box;
+    margin-top: 15px;
 }
-#boton{
+label{
   display: block;
-  margin-left: 35%;
-  margin-top: 5%;
-}
-
-label {
   font-family: forte;
-  font-size: 25px;
+  font-size: 15pt;
   text-align: center;
-
+  margin-top: 20px;
 }
-#desplazamiento, #claves{
+#desplazamiento{
   display: block;
-  font-family: forte;
-  font-size: 30px;
+  font-family: cursive;
+  font-size: 10pt;
   text-align: center;
   background-color: white;
   color:black;
   border: 2.5px solid black;
   border-radius:5px;
-  width: 30%;
-  padding: 10px;
+  width: 25%;
+  padding: 15px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 #claves{
-  margin-top: -10%;
-}
+  text-align: center;
+  font-size: 15pt;
+  color:black;
+  font-family: forte;
+  }
 #mensaje, #respuestas{
   display: block;
   text-align: center;
@@ -162,38 +118,34 @@ label {
   border: 2.5px solid black;
   border-radius: 5px;
   width: 85%;
-  padding: 35px;
+  padding: 50px;
   margin: 0 auto;
   box-sizing: border-box;
 }
-#boton2{
-  display: block;
-  margin-top: 30px;
-  margin-left: 25%;
-}
-#boton3{
-  margin-top: 30px;
-  display: block;
-}
 p{
-  float: left;
-  text-align: center;
-  font-family: forte;
-  font-size: 30px;
   color: black;
+  text-align: center;
+  font-size: 20pt;
+  font-family: monospace;
   text-shadow: 0.05em 0.05em white;
-  margin-top: -2.5px;
+  margin-top: -5px;
 }
-#boton4{
-  margin-top: -15px;
-  margin-left: 35%;
+h5{
+  color: black;
+  font-size: 20pt;
+  font-family: monospace;
+  text-shadow:0.05em 0.05em white;
+  text-align:center;
+  margin-top: 5px;
 }
-@media all and (max-width:1300px){
-  body{
-    width: 100%
-  }
+h6{
+  font-family: forte;
+  font-size: 15pt;
+  text-align: center;
 }
-@media all and (min-width:320px){
 
-
+@media screen and(min-width:200px){
+#screen1, #screen2, #screen3{
+  width: 50%;
+  height: auto;
 }
