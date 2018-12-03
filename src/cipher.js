@@ -1,5 +1,5 @@
 window.cipher = {
-encode:(mensaje,desplazamiento) => {
+encode:(desplazamiento, mensaje) => {
   let palabraCifrada="";
     for (let i=0 ; i<mensaje.length ; i++){
   let nLetra=mensaje.charCodeAt(i);
@@ -9,8 +9,7 @@ encode:(mensaje,desplazamiento) => {
     return palabraCifrada;
   },
 
-decode:(mensaje,desplazamiento) => {
-
+decode:(desplazamiento, mensaje) => {
   let palabraDescifrada="";
     for (let i=0 ; i<mensaje.length ; i++){
   let nuLetra=mensaje.charCodeAt(i);

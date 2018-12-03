@@ -30,7 +30,9 @@ function cifrar() {
   const clav=document.getElementById("desplazamiento").value;
   document.getElementById("claves").innerHTML=clav;
   respuesta.value=cipher.encode(mensajeSecreto.value,parseInt(clave.value));
+  //respuesta.value=cipher.encode(parseInt(clave.value),mensajeSecreto.value);
 }
+
 //funcion descifrar
 function descifrar() {
   document.getElementById("screen2").style="display:none";
@@ -38,7 +40,10 @@ function descifrar() {
   const clav=document.getElementById("desplazamiento").value;
   document.getElementById("claves").innerHTML=clav;
   respuesta.value=cipher.decode(mensajeSecreto.value,parseInt(clave.value));
+  //1respuesta.value=cipher.decode(parseInt(clave.value),mensajeSecreto.value);
+
 }
+
 //funion regresar
 function regresar(){
   document.getElementById("screen3").style="display:none";
