@@ -1,9 +1,19 @@
 body{
-  background-image:url("http://s1.1zoom.me/big0/534/Camomiles_Gifts_Petals_454645.jpg");
+  background-image:url("https://image.freepik.com/free-photo/vintage-nature-background-of-beautiful-cherry-pink-flower-in-spring-pastel-color-filter-effect_1484-483.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  }
+img{
+  width: 15%;
+  height: 5%;
+  float: right;
+  margin-top: 25%;
+  position: static;
+  }
+#screen1{
+  text-align: center;
   }
 h1{
   background-color: rgb(3,3,3,0.8);
@@ -12,19 +22,6 @@ h1{
   font-size: 3.0em;
   text-align:center;
   width: auto;
-  display: block;
-}
-#imagen1{
-  width: 10%;
-  height: 5%;
-  margin-top: 10%;
-  margin-left: 85%;
-}
-#imagen2{
-  width: 15%;
-  height: 5%;
-  float: right;
-  margin-top: 7%;
 }
 h2{
   color:#FC0347;
@@ -34,34 +31,24 @@ h2{
   display: block;
 }
 ol{
-  display: block;
-  font-size: 1.0em;
+  font-size: 1.3em;
   font-family: monospace;
   color: white;
   background-color: black;
   border-radius: 5px;
-  width: 29%;
-  margin-left: 35%;
-
-}
-h3{
-  color:#FC0347;
-  font-family: monospace;
-  font-size: 3.5em;
-  text-shadow: 0.05em 0.05em #FC0347;
-  text-align: center;
-  margin-left: 15%;
+  width: 32%;
+  margin-left: 25%;
 }
 button{
-    background-color: black;
-    border-radius: 75%;
-    border: 20px MIXED black;
-    color: white;
-    font-family: impact;
-    text-align: center;
-    font-size: 0.9em;
-    width: 6em;
-    height: 6em;
+  background-color: black;
+  border-radius: 75%;
+  border: 20px MIXED black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  font-size: 0.9em;
+  width: 8em;
+  height: 8em;
 }
 button:hover {background-color:#FC0347}
 button:active {
@@ -70,28 +57,27 @@ button:active {
   transform: translateY(4px);
 }
 #boton2,#boton3{
-  font-family: forte;
+  font-family: monospace;
   border-radius: 5%;
-  width: 10em;
+  width: 15em;
   height: 3em;
-  float: none;
-  margin-left: 25%;
-}
-#boton4{
-  margin-top:-13%;
-  float: none;
-  margin-left: 30%;
+  margin-top: 5%;
 }
 #screen2, #screen3{
   background-color: rgb(250, 248, 249, 0.5);
   border-radius: 5px;
-  width:35%;
+  width:49%;
   height:25%;
-
-}
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7.5%;
+  margin-bottom: auto;
+  text-align: center;
+  }
 label{
   display: block;
-  font-family: forte;
+  font-family: monospace;
   font-size: 1.5em;
   text-align: center;
   margin-top: 3%;
@@ -99,7 +85,7 @@ label{
 #desplazamiento{
   display: block;
   font-family: cursive;
-  font-size: 10pt;
+  font-size: 1.5em;
   text-align: center;
   background-color: rgb(252, 3, 82, 0.2);
   color:black;
@@ -110,16 +96,10 @@ label{
   margin: 0 auto;
   box-sizing: border-box;
 }
-#claves{
-  text-align: center;
-  font-size: 15pt;
-  color:black;
-  font-family: forte;
-  }
 #mensaje, #respuestas{
   display: block;
   text-align: center;
-  font-size: 25px;
+  font-size: 2.0em;
   background-color: rgb(252, 3, 82, 0.2);
   color: black;
   font-family: arial;
@@ -129,24 +109,138 @@ label{
   padding: 50px;
   margin: 0 auto;
 }
-h5{
-  color: #FC0347;
+#claves{
   text-align: center;
   font-size: 15pt;
-  font-family: monospace;
-  text-shadow: 0.05em 0.05em #FC0347;
-  margin-top:3%;
-}
-h4{
-  color: #FC0347; 
-  font-size: 18pt;
+  color:black;
+  font-family: forte;
+  }
+h3{
+  color: #FC0347;
+  font-size: 1.5em;
   font-family: monospace;
   text-shadow:0.05em 0.05em #FC0347;
   text-align:center;
-}
+  }
 p{
   font-family: monospace;
   font-size: 15pt;
   text-align: center;
-  margin-top: -5%;
+  }
+h4{
+  color: #FC0347;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: monospace;
+  text-shadow: 0.05em 0.05em #FC0347;
+  margin-top:3%;
+}
+footer{
+  color: black;
+  font-family: monospace;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 5px black;
+  margin-left: 25%;;
+  position: static;
+  text-align: center;
+}
+@media only all and (min-width:300px) and (max-width:600px){
+  img{
+    width: 20%;
+  }
+  h1{
+    font-size: 2.0em;
+  }
+  h2{
+    color: ;
+  }
+  ol{
+    width: 40%;
+    background-color: rgb(3,3,3,0.7);
+  }
+  #boton1{
+    font-size: 0.7em;
+  }
+  #screen2,#screen3{
+    width: 70%;
+    background-color: rgb(250, 248, 249, 0.9);
+    margin-top: 20%;
+  }
+  label{
+    font-size: 1.2em;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  #desplazamiento{
+    font-size: 1.2em;
+  }
+  #mensaje, #respuestas{
+    font-size: 1.0em;
+    max-width: 35%;
+  }
+  h3{
+    font-size: 1.3em;
+    color:black;
+  }
+  h4{
+    font-size: 1.3em;
+    color:black;
+  }
+}
+@media all and (min-width:750px) and (max-width:1030px){
+  #screen1{
+    text-align: center;
+  }
+  img{
+    width: 30%;
+    margin-top: 70%;
+    position: static;
+  }
+  h1{
+    font-size: 3.5em;
+  }
+  h2{
+    font-size: 2.7em;
+    text-align: center;
+  }
+  ol{
+    width: 50%;
+    background-color: rgb(3,3,3,0.9);
+    font-size: 2.0em;
+  }
+  button{
+    font-size: 1.5em;
+    width: 8em;
+    height: 8em;
+  }
+  #screen2,#screen3{
+    width: 70%;
+    background-color: rgb(250, 248, 249, 0.9);
+    margin-top: 20%;
+  }
+  label{
+    font-size: 2.0em;
+  }
+  p{
+    font-size: 2.0em;
+  }
+  #desplazamiento{
+    font-size: 1.8em;
+  }
+  #mensaje, #respuestas{
+    font-size: 1.8em;
+    max-width: 45%;
+  }
+  h3{
+    font-size: 1.9em;
+    color:black;
+  }
+  h4{
+    font-size: 1.9em;
+    color:black;
+  }
+  footer{
+    font-size: 2.5em;
+  }
 }
